@@ -1,6 +1,6 @@
 # Fylo Landing Page!
 
-Challenge de Frontend Master, esta es la versión en html y css ahora he decidido hacer esta misma versión con **React**, **Angular**, **Vue** y **Svelte**
+Challenge de Frontend Mentor, esta es la versión en html y css ahora he decidido hacer esta misma versión con **React**, **Angular**, **Vue** y **Svelte**
 
 ![Fylo Landing Page](https://repository-images.githubusercontent.com/263813265/ba45d180-977f-11ea-8949-a957673a8299)
 
