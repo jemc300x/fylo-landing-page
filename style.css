@@ -119,7 +119,6 @@ body{
   display: flex;
   flex-direction: column;
   max-width: var(--desktop-width);
-  padding-bottom: 100px;
 }
 
 .curve {
@@ -133,8 +132,7 @@ body{
 
 .section2-ilustration{
   align-self: center;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .section2-ilustration img {
