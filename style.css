@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root{
@@ -58,6 +59,7 @@ body{
   flex-direction: column;
   margin-bottom: 90px;
   padding: 0px 5%;
+  padding-top: 30px;
 }
 
 .section1-ilustration {
@@ -84,7 +86,7 @@ body{
 }
 
 .section1-details input {
-  width: 75%;
+  width: 90%;
   border-radius: 3px;
   padding: 10px;
   border: 1px solid var(--Very-Dark-Blue);
@@ -94,7 +96,7 @@ body{
 }
 
 .section1-details button {
-  width: 80%;
+  width: 90%;
   background-color: var(--Bright-Blue);
   padding: 10px;
   color: var(--Light-Grayish-Blue);
@@ -121,7 +123,6 @@ body{
 }
 
 .curve {
-  content: '';
   height: 115px;
   background-color: white;
   background-image: url(./img/bg-curve-mobile.svg);
@@ -211,7 +212,7 @@ body{
 
 .newsletter{
   background-color: var(--Desaturated-Blue);
-  padding: 100px 0px;
+  padding: 80px 0px;
   text-align: center;
   color: var(--Light-Grayish-Blue);
   display: flex;
@@ -229,7 +230,7 @@ body{
 }
 
 .newsletter input {
-  width: 75%;
+  width: 70%;
   border-radius: 3px;
   padding: 10px;
   border: 1px solid var(--Very-Dark-Blue);
@@ -239,7 +240,7 @@ body{
 }
 
 .newsletter button {
-  width: 80%;
+  width: 70%;
   background-color: var(--Bright-Blue);
   padding: 10px;
   color: var(--Light-Grayish-Blue);
@@ -251,7 +252,7 @@ body{
 }
 
 .footer{
-  padding: 50px 50px;
+  padding: 80px 50px 50px 50px;
   background-color: var(--Very-Dark-Blue);
   color: var(--Light-Grayish-Blue);
   display: flex;
@@ -272,12 +273,11 @@ body{
 }
 
 .column1, .column2, .column3, .column4 {
-  padding-top: 50px;
-  
+  padding-bottom: 40px;
 }
 
-.column1 > svg {
-  padding-bottom: 40px;
+.column1 svg {
+  margin-bottom: 30px;
 }
 
 .column1 p {
