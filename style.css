@@ -372,9 +372,10 @@ body{
   .card {
     margin: 0;
   }
-  
+
   .newsletter {
     flex-direction: row;
+    align-items: center;
   }
 
   .newsletter div {
@@ -396,9 +397,26 @@ body{
   .newsletter form {
     flex: 40%;
   }
-
+  
   .footer {
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 10px;
+  }
+
+  .column1 {
+    flex: 50%;
+    margin-top: -85px;
+  }
+  .column2 {
+    flex: 30%;
+  }
+  .column3 {
+    flex: 30%;
+  }
+  .column4 {
+    flex: 30%;
+    text-align: start;
   }
 }
