@@ -112,14 +112,16 @@ body{
 }
 
 .section2{
-  background-color: var(--Light-Grayish-Blue);
-  padding-bottom: 90px;
-}
-
-.section2-container {
   display: flex;
   flex-direction: column;
   max-width: var(--desktop-width);
+  padding: 0 5%;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.container {
+  background-color: var(--Light-Grayish-Blue);
 }
 
 .curve {
@@ -137,7 +139,7 @@ body{
 }
 
 .section2-ilustration img {
-  width: 350px;
+  width: 100%;
 }
 
 .section2-details {
@@ -153,7 +155,6 @@ body{
 .section2-details p {
   text-align: start;
   margin-bottom: 20px;
-  padding: 0px 5%;
 }
 
 .section2-details-call-to-action {
@@ -161,12 +162,18 @@ body{
   padding-bottom: 50px;
 }
 
+.section2-details-call-to-action img{
+  width: 25px;
+  margin-left: 5px;
+}
+
 .section2-details a {
   color: var(--Moderate-Cyan);
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 1.5px solid;
   padding: 5px;
   margin: 20px 0 20px 0;
+  display: inline-flex;
 }
 
 .card{
@@ -271,7 +278,7 @@ body{
 }
 
 .column1, .column2, .column3, .column4 {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .column1 svg {
@@ -296,9 +303,13 @@ body{
 
 @media (min-width: 768px){
 
+  .header img {
+    width: initial;
+  }
+
   .header-navbar li {
     margin-right: 25px;
-  }  
+  }
 
   .section1 {
     flex-direction: row-reverse;
@@ -317,6 +328,11 @@ body{
   .section1-details h1 {
     font-size: 2.5rem;
     font-family: var(--font-family);
+  }
+
+  .section1-details p {
+    padding: 0;
+    max-width: 540px;
   }
 
   .section1-details input {
@@ -339,10 +355,11 @@ body{
     background-image: url(./img/bg-curve-desktop.svg);
   }
 
-  .section2-container {
+  .section2 {
     flex-direction: row-reverse;
     margin: 0 auto;
     padding: 50px 5%;
+    padding-bottom: 100px;
   }
 
   .section2-ilustration {
@@ -363,7 +380,7 @@ body{
   }
   
   .section2-details p {
-    max-width: 500px;
+    max-width: 540px;
     padding: 0;
   }
 
@@ -389,7 +406,7 @@ body{
   }
 
   .newsletter div p {
-    max-width: 500px;
+    max-width: 540px;
   }
 
   .newsletter form {
