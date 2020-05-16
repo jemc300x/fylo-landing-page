@@ -240,8 +240,11 @@ body{
   padding: 10px;
   border: 1px solid var(--Very-Dark-Blue);
   font-family: var(--font-family);
-  color: var(--Light-Gray);
   margin-bottom: 10px;
+}
+
+::placeholder {
+  color: var(--Light-Gray);
 }
 
 .newsletter button {
@@ -412,7 +415,7 @@ body{
   .newsletter form {
     flex: 40%;
   }
-  
+
   .footer {
     flex-direction: row;
     justify-content: space-between;
